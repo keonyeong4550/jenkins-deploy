@@ -20,7 +20,7 @@ sudo docker run -d -p 8080:8080 -p 50000:50000 --name jenkins --restart=always -
 ### 5. 초기 비밀번호 보기
 sudo docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
-![젠킨스 배포 흐름도](https://github.com/user-attachments/assets/6a7390af-aa8b-40c9-b620-96663906ba84)
+![젠킨스 배포 흐름도](https://github.com/user-attachments/assets/7a9ad296-fbbd-4b27-912f-61adc8c6507c)
 
 
 
