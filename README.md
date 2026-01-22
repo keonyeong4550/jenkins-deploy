@@ -6,13 +6,13 @@
 sudo dnf update -y
 
 ### 2. 도커 설치
-sudo dnf install dnf-plugins-core -y
-sudo dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+sudo dnf install dnf-plugins-core -y <br>
+sudo dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo <br>
 sudo dnf install docker-ce docker-ce-cli containerd.io -y
 
 ### 3. 도커 서비스 시작
-sudo systemctl start docker
-sudo systemctl enable docker
+sudo systemctl start docker <br>
+sudo systemctl enable docker <br>
 
 ### 4. 젠킨스 도커 이미지 Pull,  컨테이너 시작
 sudo docker run -d -p 8080:8080 -p 50000:50000 --name jenkins --restart=always -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
