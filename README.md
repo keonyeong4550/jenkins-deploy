@@ -28,3 +28,4 @@ sudo docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
 
 # [박건영 인스타 링크](https://www.instagram.com/gunyoung1982_seoul)
+# [박건영 스레드 링크](https://www.threads.com/@gunyoung1982_seoul)
